@@ -36,7 +36,7 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 ### Bit Manipulation
 |  #  | Title           | Difficulty    | Time      | Space     | C++       | Python    | Note      |
 |-----|---------------- | ------------- | --------- | --------- | --------- |-----------|---------- |
-136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | $$O(n)$$ | $$O(1)$$ |[C++](./C++/single-number.cpp) | [Python](./Python/single-number.py) ||
+136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | _O(n)_ | _O(1)_ |[C++](./C++/single-number.cpp) | [Python](./Python/single-number.py) ||
 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [C++](./C++/single-number-ii.cpp) [Python](./Python/single-number-ii.py) | _O(n)_ | _O(1)_          | Medium         |||
 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)  | [C++](./C++/reverse-bits.cpp) [Python](./Python/reverse-bits.py) | _O(1)_        | _O(1)_          | Easy           |||
 191 |[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [C++](./C++/number-of-1-bits.cpp) [Python](./Python/number-of-1-bits.py) | _O(1)_ | _O(1)_          | Easy           |||
