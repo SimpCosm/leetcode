@@ -32,13 +32,13 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 ### Bit Manipulation
 |  #  | Title           | Difficulty    | Time      | Space     | C++       | Python    | Note      |
 |-----|---------------- | ------------- | --------- | --------- | --------- |-----------|---------- |
-136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | _O(n)_ | _O(1)_ |[C++](./C++/single-number.cpp) | [Python](./Python/single-number.py) ||
-137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | Medium | _O(n)_ | _O(1)_ | [C++](./C++/single-number-ii.cpp) [Python](./Python/single-number-ii.py) ||
+136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | _O(n)_ | _O(1)_ | [C++](./C++/single-number.cpp) | [Python](./Python/single-number.py) ||
+137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | Medium | _O(n)_ | _O(1)_ | [C++](./C++/single-number-ii.cpp) | [Python](./Python/single-number-ii.py) ||
+260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | Medium | _O(n)_ | _O(1)_ | [C++](./C++/single-number-iii.cpp) | [Python](./Python/single-number-iii.py) ||
 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)  | [C++](./C++/reverse-bits.cpp) [Python](./Python/reverse-bits.py) | _O(1)_        | _O(1)_          | Easy           |||
 191 |[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [C++](./C++/number-of-1-bits.cpp) [Python](./Python/number-of-1-bits.py) | _O(1)_ | _O(1)_          | Easy           |||
 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [C++](./C++/bitwise-and-of-numbers-range.cpp) [Python](./Python/bitwise-and-of-numbers-range.py) | _O(1)_ | _O(1)_ | Medium ||
 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](./C++/power-of-two.cpp) [Python](./Python/power-of-two.py) | _O(1)_ | _O(1)_ | Easy | LintCode |
-260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | [C++](./C++/single-number-iii.cpp) [Python](./Python/single-number-iii.py) | _O(n)_ | _O(1)_          | Medium         ||
 268| [Missing Number](https://leetcode.com/problems/missing-number/) | [C++](./C++/missing-number.cpp) [Python](./Python/missing-number.py)  | _O(n)_ |  _O(1)_ | Medium         | LintCode ||
 318| [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [C++](./C++/maximum-product-of-word-lengths.cpp) [Python](./Python/maximum-product-of-word-lengths.py)  | _O(n)_ ~ _O(n^2)_ |  _O(n)_ | Medium         || Bit Manipulation, Counting Sort, Pruning|
 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [C++](./C++/power-of-four.cpp) [Python](./Python/power-of-four.py) | _O(1)_ | _O(1)_ | Easy | |
