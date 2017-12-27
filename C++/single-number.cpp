@@ -1,13 +1,17 @@
 /*
- * Author: Houmin Wei <weihoumin@gmail.com>
- * Date: 2017-12-26
+ * Copyright (C) 2017 All Rights Reserved.
+ *
+ * Author:         Houmin Wei  <weihoumin@gmail.com>
+ * Created:        Wed 27 Dec 2017 02:10:22 PM CST
+ * Last Modified:  Wed 27 Dec 2017 02:13:59 PM CST
  *
  * Source: https://leetcode.com/problems/single-number
  *
  * Description:
  *  Given an array of intergers, every element appears *twice* except for one. Find that one.
  * Note:
- *  Your algorithm should have a linear runtime complexity. Could you implement it without using extra momery?
+ *  Your algorithm should have a linear runtime complexity. Could you implement it without using
+ *  extra memory?
  *
  * Solution:
  *  This is a classic interview question. As we know, a XOR a = 0 and the XOR operator is commutative.

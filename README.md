@@ -1,11 +1,7 @@
 # [LeetCode](https://leetcode.com/problems/algorithms/)
 ![Language](https://img.shields.io/badge/language-Python%20%2F%20C++%2011-orange.svg)[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 This project starts at 2017.12.26 and It will keep updating in the next year.
-
-
 
 
 ## Algorithms
