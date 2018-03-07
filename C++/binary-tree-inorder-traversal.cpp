@@ -23,6 +23,7 @@
  */
 
 #include <vector>
+#include <stack>
 using namespace std;
 
 struct TreeNode {
@@ -43,6 +44,28 @@ public:
             ret.push_back(pNode->val);
             vector<int> right = inorderTraversal(pNode->right);
             ret.insert(ret.end(), right.begin(), right.end());
+        }
+        return ret;
+    }
+};
+
+class Solution2 {
+public:
+    vector<int> inorderTraversal(TreeNode* root) {
+        stack<TreeNode*> s;
+        vector<int> ret;
+        TreeNode *pNode = root;
+        while (pNode != nullptr || !s.empty()) {
+            while (pNode != nullptr) {
+                s.push(pNode);
+                pNode = pNode->left;
+            }
+            if (!s.empty()) {
+                pNode = s.top();
+                ret.push_back(pNode->val);
+                s.pop();
+                pNode = pNode->right;
+            }
         }
         return ret;
     }
