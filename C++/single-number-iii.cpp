@@ -3,7 +3,7 @@
  *
  * Author:         Houmin Wei  <weihoumin@gmail.com>
  * Created:        Wed 27 Dec 2017 02:44:10 PM CST
- * Last Modified:  Wed 27 Dec 2017 02:59:23 PM CST
+ * Last Modified:  Wed 27 Dec 2017 03:03:47 PM CST
  *
  * Source: https://leetcode.com/problems/single-number-iii
  *
@@ -28,7 +28,7 @@ using namespace std;
 class Solution {
     public:
         vector<int> singleNumber(vector<int>& nums) {
-            // XOR akk the elements to get x ^ y.
+            // XOR all the elements to get x ^ y.
             const auto x_xor_y = accumulate(nums.cbegin(), nums.cend(), 0, bit_xor<int>());
 
             // Get the last bit where 1 occurs by "x & ~(x - 1)"
