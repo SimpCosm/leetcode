@@ -30,22 +30,22 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 * [Design](https://github.com/SimpCosm/leetcode#design)
 
 ### Bit Manipulation
-| Title | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
-| ----- | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
+| Title                                                        | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
+| [Single Number](https://leetcode.com/problems/single-number) |            |      |       |      |        |      |      |      |
+| [Single Number II](https://leetcode.com/problems/single-number-ii) |            |      |       |      |        |      |      |      |
+| [Single Number III](https://leetcode.com/problems/single-number-iii) |            |      |       |      |        |      |      |      |
+| [Power of Two](https://leetcode.com/problems/power-of-two)   |            |      |       |      |        |      |      |      |
+| [Power of Four](https://leetcode.com/problems/power-of-four) |            |      |       |      |        |      |      |      |
+| [Missing Number](https://leetcode.com/problems/missing-number) |            |      |       |      |        |      |      |      |
+| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) |            |      |       |      |        |      |      |      |
+| [Reverse Bits](https://leetcode.com/problems/reverse-bits)   |            |      |       |      |        |      |      |      |
+| [Majority Element](https://leetcode.com/problems/majority-element) |            |      |       |      |        |      |      |      |
+| [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) |            |      |       |      |        |      |      |      |
+| [Find the Difference](https://leetcode.com/problems/find-the-difference) |            |      |       |      |        |      |      |      |
+| [Binary Watch](https://leetcode.com/problems/binary-watch)   |            |      |       |      |        |      |      |      |
+| [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal) |            |      |       |      |        |      |      |      |
+| [Hamming Distance](https://leetcode.com/problems/hamming-distance) |            |      |       |      |        |      |      |      |
 
 
 
@@ -92,22 +92,24 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 
 ### Linked List
 
-| Title | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
-| ----- | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
+| Title                                                        | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
+| [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) |            |      |       |      |        |      |      |      |
+| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) |            |      |       |      |        |      |      |      |
+| [Rotate List](https://leetcode.com/problems/rotate-list)     |            |      |       |      |        |      |      |      |
+| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) |            |      |       |      |        |      |      |      |
+| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) |            |      |       |      |        |      |      |      |
+| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) |            |      |       |      |        |      |      |      |
+| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) |            |      |       |      |        |      |      |      |
+| [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) |            |      |       |      |        |      |      |      |
+| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) |            |      |       |      |        |      |      |      |
+| [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) |            |      |       |      |        |      |      |      |
+| [Reorder List](https://leetcode.com/problems/reorder-list)   |            |      |       |      |        |      |      |      |
+| [Sort List](https://leetcode.com/problems/sort-list)         |            |      |       |      |        |      |      |      |
+| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) |            |      |       |      |        |      |      |      |
+| [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list) |            |      |       |      |        |      |      |      |
+| [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
 
 
 
@@ -142,22 +144,22 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 
 
 ### Heap
-| Title | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
-| ----- | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
+| Title                                                        | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
+| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) |            |      |       |      |        |      |      |      |
+| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) |            |      |       |      |        |      |      |      |
+| [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) |            |      |       |      |        |      |      |      |
+| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) |            |      |       |      |        |      |      |      |
+| [Reorganize String](https://leetcode.com/problems/reorganize-string) |            |      |       |      |        |      |      |      |
+| [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
 
 
 
@@ -178,6 +180,20 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 |       |            |      |       |      |        |      |      |      |
 |       |            |      |       |      |        |      |      |      |
 |       |            |      |       |      |        |      |      |      |
+
+### Graph
+
+| Title                                                        | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
+| [Clone Graph](https://leetcode.com/problems/clone-graph)     |            |      |       |      |        |      |      |      |
+| [Evaluate Division](https://leetcode.com/problems/evaluate-division) |            |      |       |      |        |      |      |      |
+| [Network Delay Time](https://leetcode.com/problems/network-delay-time) |            |      |       |      |        |      |      |      |
+| [Redundant Connection](https://leetcode.com/problems/redundant-connection) |            |      |       |      |        |      |      |      |
+| [Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii) |            |      |       |      |        |      |      |      |
+| [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) |            |      |       |      |        |      |      |      |
+| [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary) |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
 
 
 
@@ -223,22 +239,22 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 
 
 ### Sort
-| Title | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
-| ----- | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
+| Title                                                        | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
+| [Valid Anagram](https://leetcode.com/problems/valid-anagram) |            |      |       |      |        |      |      |      |
+| [H-Index](https://leetcode.com/problems/h-index)             |            |      |       |      |        |      |      |      |
+| [Sort Colors](https://leetcode.com/problems/sort-colors)     |            |      |       |      |        |      |      |      |
+| [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays) |            |      |       |      |        |      |      |      |
+| [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii) |            |      |       |      |        |      |      |      |
+| [Sort List](https://leetcode.com/problems/sort-list)         |            |      |       |      |        |      |      |      |
+| [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list) |            |      |       |      |        |      |      |      |
+| [Largest Number](https://leetcode.com/problems/largest-number) |            |      |       |      |        |      |      |      |
+| [Merge Intervals](https://leetcode.com/problems/merge-intervals) |            |      |       |      |        |      |      |      |
+| [Reorganize String](https://leetcode.com/problems/reorganize-string) |            |      |       |      |        |      |      |      |
+| [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting) |            |      |       |      |        |      |      |      |
+| [Maximum Gap](https://leetcode.com/problems/maximum-gap)     |            |      |       |      |        |      |      |      |
+| [Insert Interval](https://leetcode.com/problems/insert-interval) |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
 
 ### Two Pointers
 | Title | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
@@ -281,84 +297,75 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 
 
 ### Binary Search
-| Title | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
-| ----- | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
+| Title                                                        | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
+| [First Bad Version](https://leetcode.com/problems/first-bad-version) |            |      |       |      |        |      |      |      |
+| [Pow(x, n)](https://leetcode.com/problems/powx-n)            |            |      |       |      |        |      |      |      |
+| [Sqrt(x)](https://leetcode.com/problems/sqrtx)               |            |      |       |      |        |      |      |      |
+| [Heaters](https://leetcode.com/problems/heaters)             |            |      |       |      |        |      |      |      |
+| [Search for a Range](https://leetcode.com/problems/search-for-a-range) |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
 
 
 
 ### Binary Search Tree
-| Title | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
-| ----- | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
+| Title                                                        | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
+| [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable) |            |      |       |      |        |      |      |      |
+| [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self) |            |      |       |      |        |      |      |      |
+| [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem) |            |      |       |      |        |      |      |      |
+| [Reverse Pairs](https://leetcode.com/problems/reverse-pairs) |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
 
 
 
 ### Breadth-First Search
 
-| Title | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
-| ----- | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
+| Title                                                        | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
+| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) |            |      |       |      |        |      |      |      |
+| [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) |            |      |       |      |        |      |      |      |
+| [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) |            |      |       |      |        |      |      |      |
+| [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) |            |      |       |      |        |      |      |      |
+| [Perfect Squares](https://leetcode.com/problems/perfect-squares) |            |      |       |      |        |      |      |      |
+| [Surrounded Regions](https://leetcode.com/problems/surrounded-regions) |            |      |       |      |        |      |      |      |
+| [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) |            |      |       |      |        |      |      |      |
+| [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) |            |      |       |      |        |      |      |      |
+| [Course Schedule](https://leetcode.com/problems/course-schedule) |            |      |       |      |        |      |      |      |
+| [Clone Graph](https://leetcode.com/problems/clone-graph)     |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
+|                                                              |            |      |       |      |        |      |      |      |
 
 
 
 ### Depth-First Search
 
-| Title | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
-| ----- | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
-|       |            |      |       |      |        |      |      |      |
+| Title                                                        | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
+| [Path Sum](https://leetcode.com/problems/path-sum)           |            |      |       |      |        |      |      |      |
+| [Path Sum II](https://leetcode.com/problems/path-sum-ii)     |            |      |       |      |        |      |      |      |
+| [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) |            |      |       |      |        |      |      |      |
+| [Same Tree](https://leetcode.com/problems/same-tree)         |            |      |       |      |        |      |      |      |
+| [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) |            |      |       |      |        |      |      |      |
+| [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal) |            |      |       |      |        |      |      |      |
+| [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) |            |      |       |      |        |      |      |      |
+| [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) |            |      |       |      |        |      |      |      |
+| [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) |            |      |       |      |        |      |      |      |
+| [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) |            |      |       |      |        |      |      |      |
+| [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) |            |      |       |      |        |      |      |      |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands) |            |      |       |      |        |      |      |      |
+| [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses) |            |      |       |      |        |      |      |      |
+| [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) |            |      |       |      |        |      |      |      |
 
 ### Backtracking
 
@@ -366,18 +373,18 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 | ------------------------------------------------------------ | ----------------- | ----------- | ------ | -------------------------------- | ------ | ---- | ---- | ---- |
 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium            | _O(k* n^k)_ | _O(k)_ | [C++](./C++/combination-sum.cpp) |        |      |      |      |
 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | *O(k \* C(n, k))* | *O(k)*      | Medium | [C++](./C++/combination-sum.cpp) |        |      |      |      |
-|                                                              |                   |             |        |                                  |        |      |      |      |
-|                                                              |                   |             |        |                                  |        |      |      |      |
-|                                                              |                   |             |        |                                  |        |      |      |      |
-|                                                              |                   |             |        |                                  |        |      |      |      |
-|                                                              |                   |             |        |                                  |        |      |      |      |
-|                                                              |                   |             |        |                                  |        |      |      |      |
-|                                                              |                   |             |        |                                  |        |      |      |      |
-|                                                              |                   |             |        |                                  |        |      |      |      |
-|                                                              |                   |             |        |                                  |        |      |      |      |
-|                                                              |                   |             |        |                                  |        |      |      |      |
-|                                                              |                   |             |        |                                  |        |      |      |      |
-|                                                              |                   |             |        |                                  |        |      |      |      |
+| [Combination Sum III](https://leetcode.com/problems/combination-sum-iii) |                   |             |        |                                  |        |      |      |      |
+| [Permutations](https://leetcode.com/problems/permutations)   |                   |             |        |                                  |        |      |      |      |
+| [Permutations II](https://leetcode.com/problems/permutations-ii) |                   |             |        |                                  |        |      |      |      |
+| [Subsets](https://leetcode.com/problems/subsets)             |                   |             |        |                                  |        |      |      |      |
+| [Subsets II](https://leetcode.com/problems/subsets-ii)       |                   |             |        |                                  |        |      |      |      |
+| [N-Queens](https://leetcode.com/problems/n-queens)           |                   |             |        |                                  |        |      |      |      |
+| [N-Queens II](https://leetcode.com/problems/n-queens-ii)     |                   |             |        |                                  |        |      |      |      |
+| [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) |                   |             |        |                                  |        |      |      |      |
+| [Word Search](https://leetcode.com/problems/word-search)     |                   |             |        |                                  |        |      |      |      |
+| [Word Search II](https://leetcode.com/problems/word-search-ii) |                   |             |        |                                  |        |      |      |      |
+| [Gray Code](https://leetcode.com/problems/gray-code)         |                   |             |        |                                  |        |      |      |      |
+| [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) |                   |             |        |                                  |        |      |      |      |
 
 
 
@@ -390,32 +397,35 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy       | _O(n)_     | _O(1)_   | [C++](./C++/climbing-stairs.cpp)          | [Python](./climbing-stairs.py) |      |      |      |
 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy       | _O(n)_     | _O(1)_   | [C++](./C++/min-cost-climbing-stairs.cpp) |                                |      |      |      |
 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | Hard       | _O(m * n)_ | O(m + n) |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
-|                                                              |            |            |          |                                           |                                |      |      |      |
+| [ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium     |            |          |                                           |                                |      |      |      |
+| [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | Medium     |            |          |                                           |                                |      |      |      |
+|  [Unique Paths](https://leetcode.com/problems/unique-paths)  | Medium     |            |          |                                           |                                |      |      |      |
+| [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | Medium     |            |          |                                           |                                |      |      |      |
+| [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) | Medium     |            |          |                                           |                                |      |      |      |
+|      [Triangle](https://leetcode.com/problems/triangle)      | Medium     |            |          |                                           |                                |      |      |      |
+|   [Coin Change](https://leetcode.com/problems/coin-change)   | Medium     |            |          |                                           |                                |      |      |      |
+| [Maximal Square](https://leetcode.com/problems/maximal-square) | Medium     |            |          |                                           |                                |      |      |      |
+| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | Medium     |            |          |                                           |                                |      |      |      |
+|     [Can I Win](https://leetcode.com/problems/can-i-win)     |            |            |          |                                           |                                |      |      |      |
+|    [Target Sum](https://leetcode.com/problems/target-sum)    |            |            |          |                                           |                                |      |      |      |
+|    [Word Break](https://leetcode.com/problems/word-break)    |            |            |          |                                           |                                |      |      |      |
+| [Predict the Winner](https://leetcode.com/problems/predict-the-winner) |            |            |          |                                           |                                |      |      |      |
+| [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) |            |            |          |                                           |                                |      |      |      |
+| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) |            |            |          |                                           |                                |      |      |      |
+| [Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences) |            |            |          |                                           |                                |      |      |      |
+| [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum) |            |            |          |                                           |                                |      |      |      |
+| [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray) |            |            |          |                                           |                                |      |      |      |
+| [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) |            |            |          |                                           |                                |      |      |      |
+| [Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings) |            |            |          |                                           |                                |      |      |      |
+| [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |            |            |          |                                           |                                |      |      |      |
+| [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard) |            |            |          |                                           |                                |      |      |      |
+| [Delete and Earn](https://leetcode.com/problems/delete-and-earn) |            |            |          |                                           |                                |      |      |      |
+| [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices) |            |            |          |                                           |                                |      |      |      |
+| [Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence) |            |            |          |                                           |                                |      |      |      |
+|   [Decode Ways](https://leetcode.com/problems/decode-ways)   |            |            |          |                                           |                                |      |      |      |
+| [Decode Ways II](https://leetcode.com/problems/decode-ways-ii) |            |            |          |                                           |                                |      |      |      |
+| [Shopping Offers](https://leetcode.com/problems/shopping-offers) |            |            |          |                                           |                                |      |      |      |
+| [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) |            |            |          |                                           |                                |      |      |      |
 
 
 
