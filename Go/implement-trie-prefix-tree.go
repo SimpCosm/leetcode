@@ -15,69 +15,62 @@ import (
 	"fmt"
 )
 
-type TrieNode struct {
-	children map[string]*TrieNode
-	isEnd    bool
-}
-
 type Trie struct {
-	root *TrieNode
+	children map[string]*Trie
+	isEnd    bool
 }
 
 /** Initialize you data structure here. */
 func Constructor() Trie {
-    trie := Trie{
-        root: &TrieNode{
-            children: make(map[string]*TrieNode),
-            isEnd: false,
-        },
-    }
+	trie := Trie{
+		children: make(map[string]*Trie),
+		isEnd:    false,
+	}
 	return trie
 }
 
 /** Insert a word into the trie. */
 func (this *Trie) Insert(word string) {
-	node := this.root
-    last := len(word) - 1
+	node := this
+	last := len(word) - 1
 	for i, c := range word {
 		ch := string(c)
-		if _, ok := node.children[ch]; ok {
-			node = node.children[ch]
-		} else {
-			newNode := &TrieNode{children: make(map[string]*TrieNode), isEnd: false}
-            node.children[ch] = newNode
-			node = newNode
+		newNode, ok := node.children[ch]
+		if !ok {
+			newNode = &Trie{children: make(map[string]*Trie), isEnd: false}
+			node.children[ch] = newNode
 		}
-        if i == last {
-            node.isEnd = true
-        }
+		node = newNode
+		if i == last {
+			node.isEnd = true
+		}
 	}
 }
 
 /** Return if the word is in the trie. */
 func (this *Trie) Search(word string) bool {
-	node := this.root
+	node := this
 	for _, c := range word {
 		ch := string(c)
-		if _, ok := node.children[ch]; ok {
-			node = node.children[ch]
-		} else {
+		newNode, ok := node.children[ch]
+		if !ok {
 			return false
 		}
+		node = newNode
 	}
 	return node.isEnd
 }
 
 /** Returns if there is any word in the trie that starts with the given prefix. */
 func (this *Trie) StartsWith(prefix string) bool {
-	node := this.root
+	node := this
 	for _, c := range prefix {
 		ch := string(c)
-		if _, ok := node.children[ch]; ok {
-			node = node.children[ch]
-		} else {
+		newNode, ok := node.children[ch]
+		if !ok {
 			return false
 		}
+		node = newNode
 	}
 	return true
 }
@@ -98,8 +91,8 @@ func main() {
 		fmt.Println("find word start with app")
 	}
 
-    trie.Insert("app")
-    if trie.Search("app") == true {
-        fmt.Println("find word app")
-    }
+	trie.Insert("app")
+	if trie.Search("app") == true {
+		fmt.Println("find word app")
+	}
 }
