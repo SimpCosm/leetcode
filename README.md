@@ -92,24 +92,24 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 
 ### Linked List
 
-| Title                                                        | Difficulty | Time | Space | C++  | Python | Go   | Tag  | Note |
-| ------------------------------------------------------------ | ---------- | ---- | ----- | ---- | ------ | ---- | ---- | ---- |
-| [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) |            |      |       |      |        |      |      |      |
-| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) |            |      |       |      |        |      |      |      |
-| [Rotate List](https://leetcode.com/problems/rotate-list)     |            |      |       |      |        |      |      |      |
-| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) |            |      |       |      |        |      |      |      |
-| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) |            |      |       |      |        |      |      |      |
-| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) |            |      |       |      |        |      |      |      |
-| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) |            |      |       |      |        |      |      |      |
-| [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) |            |      |       |      |        |      |      |      |
-| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) |            |      |       |      |        |      |      |      |
-| [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) |            |      |       |      |        |      |      |      |
-| [Reorder List](https://leetcode.com/problems/reorder-list)   |            |      |       |      |        |      |      |      |
-| [Sort List](https://leetcode.com/problems/sort-list)         |            |      |       |      |        |      |      |      |
-| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) |            |      |       |      |        |      |      |      |
-| [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list) |            |      |       |      |        |      |      |      |
-| [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) |            |      |       |      |        |      |      |      |
-|                                                              |            |      |       |      |        |      |      |      |
+| Title                                                        | Difficulty | Time   | Space  | C++  | Python | Go                         | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | ------ | ------ | ---- | ------ | -------------------------- | ---- | ---- |
+| [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) |            |        |        |      |        |                            |      |      |
+| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) |            |        |        |      |        |                            |      |      |
+| [Rotate List](https://leetcode.com/problems/rotate-list)     |            |        |        |      |        |                            |      |      |
+| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) |            |        |        |      |        |                            |      |      |
+| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) |            |        |        |      |        |                            |      |      |
+| [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) |            |        |        |      |        |                            |      |      |
+| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) |            |        |        |      |        |                            |      |      |
+| [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) |            |        |        |      |        |                            |      |      |
+| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) |            |        |        |      |        |                            |      |      |
+| [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) |            |        |        |      |        |                            |      |      |
+| [Reorder List](https://leetcode.com/problems/reorder-list)   | Medium     | _O(n)_ | _O(1)_ |      |        | [Go](./Go/reorder-list.go) |      |      |
+| [Sort List](https://leetcode.com/problems/sort-list)         |            |        |        |      |        |                            |      |      |
+| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) |            |        |        |      |        |                            |      |      |
+| [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list) |            |        |        |      |        |                            |      |      |
+| [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) |            |        |        |      |        |                            |      |      |
+|                                                              |            |        |        |      |        |                            |      |      |
 
 
 
