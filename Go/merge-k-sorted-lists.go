@@ -3,10 +3,8 @@
 *
 * Author: Houmin Wei <houmin.wei@outlook.com>
 *
-* Source: https://leetcode.com/problems/merge-two-sorted-lists/description
+* Source: https://leetcode.com/problems/merge-k-sorted-lists/description
 *
-* Description:
-*   Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
 */
 package main
 
@@ -55,24 +53,15 @@ func (list *List) String() string {
         values = append(values, fmt.Sprintf("%v", element.Val))
 	}
 	str += strings.Join(values, ", ")
-    str += "]"
+    str += "]\n"
 	return str
 }
 
-func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+func mergeKLists(lists []*ListNode) *ListNode {
     var head, cur *ListNode
     head, cur = new(ListNode), new(ListNode)
     head = cur
-    for l1 != nil && l2 != nil {
-        if l1.Val.(int) <= l2.Val.(int) {
-            cur.Next = l1
-            l1 = l1.Next
-        } else {
-            cur.Next = l2
-            l2 = l2.Next
-        }
-        cur = cur.Next
-    }
+    
     if l1 != nil {
         cur.Next = l1
     }
@@ -83,8 +72,9 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 }
 
 func main() {
-    list1, list2 := New(1, 2, 4), New(1, 3, 4)
-    fmt.Println(list1, list2)
-    list1.Head = mergeTwoLists(list1.Head, list2.Head)
-    fmt.Println(list1)
+    list1, list2, list3 := New(1, 4, 5), New(1, 3, 4), New(2, 6)
+    fmt.Print(list1, list2, list3)
+    lists := []*ListNode{list1.Head, list2.Head, list3.Head}
+    list1.Head = mergeKLists(lists)
+    fmt.Print(list1)
 }
