@@ -17,15 +17,15 @@ struct ListNode {
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ListNode *pNode = new ListNode(0);
-
-        while (head)
-        {
-            auto tmp = head->next;
-            head->next = pNode->next;
-            pNode->next = head;
-            head = tmp;
+        ListNode *tail = nullptr;
+        ListNode *iter = head;
+        while (iter) {
+            ListNode *tmp = iter->next;
+            iter->next = tail;
+            tail = iter;
+            iter = tmp;
         }
-        return pNode->next;
+        return tail;
+
     }
 };
