@@ -22,7 +22,7 @@ public:
         while (head) {
             while (head->next && head->next->val == head->val)
             {
-                head = head->next;
+                head->next = head->next->next;
                 flag = true;
             }
             if (!flag)

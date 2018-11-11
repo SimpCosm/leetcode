@@ -16,15 +16,12 @@ struct ListNode {
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        ListNode* pNode = new ListNode(0);
-        ListNode* cur = pNode;
-        while (head) {
-            while (head->next && head->next->val == head->val)
-                head = head->next;
-            cur->next = head;
+        ListNode *cur = head;
+        while (cur) {
+            while (cur->next && cur->val == cur->next->val)
+                cur->next = cur->next->next;
             cur = cur->next;
-            head = head->next;
         }
-        return pNode->next;
+        return head;
     }
 };
