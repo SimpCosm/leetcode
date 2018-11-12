@@ -11,6 +11,7 @@
 
 #include <vector>
 #include <queue>
+#include <stack>
 using namespace std;
 
 struct TreeNode {
@@ -36,7 +37,7 @@ public:
             TreeNode* pNode = q.front();
             q.pop();
             if (pNode == nullptr) {
-                s.push_back(level);
+                s.push(level);
                 level.resize(0);
                 if (q.size() > 0)
                     q.push(nullptr);
