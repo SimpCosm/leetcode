@@ -3,10 +3,7 @@
  *
  * Author: Houmin Wei <houmin.wei@outlook.com>
  *
- * Source: https://leetcode.com/problems/path-sum
- *
- * Description:
- *  Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
+ * Source: https://leetcode.com/problems/path-sum-ii
  */
 #include <vector>
 using namespace std;

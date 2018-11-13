@@ -15,17 +15,13 @@ struct TreeNode {
     TreeNode *right;
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
-
 class Solution {
 public:
     bool hasPathSum(TreeNode* root, int sum) {
         if (root == nullptr)
             return false;
-        if ((root->left == nullptr) && (root->right == nullptr) && (root->val == sum))
+        if (!root->left && !root->right && root->val == sum)
             return true;
-
-        if (hasPathSum(root->left, sum-root->val) || hasPathSum(root->right, sum-root->val))
-            return true;
-        return false;
+        return hasPathSum(root->left, sum-root->val) || hasPathSum(root->right, sum-root->val);
     }
 };
