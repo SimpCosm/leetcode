@@ -480,8 +480,8 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 | [ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium     | [C++](./C++/longest-increasing-subsequence.cpp)      |                                |      |      |      |
 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray) | Medium     | [C++](./C++/maximum-length-of-repeated-subarray.cpp) |                                |      |      |      |
 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | Medium     | [C++](./minimum-path-sum.cpp)                        |                                |      |      |      |
-|  [Unique Paths](https://leetcode.com/problems/unique-paths)  | Medium     |                                                      |                                |      |      |      |
-| [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | Medium     |                                                      |                                |      |      |      |
+|  [Unique Paths](https://leetcode.com/problems/unique-paths)  | Medium     | [C++](./unique-paths.cpp)                            |                                |      |      |      |
+| [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | Medium     | [C++](./unique-paths-ii.cpp)                         |                                |      |      |      |
 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | Medium     | [C++](./C++/unique-binary-search-trees.cpp)          |                                |      |      |      |
 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) | Medium     |                                                      |                                |      |      |      |
 |      [Triangle](https://leetcode.com/problems/triangle)      | Medium     |                                                      |                                |      |      |      |
