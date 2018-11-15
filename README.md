@@ -492,8 +492,8 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 |    [Target Sum](https://leetcode.com/problems/target-sum)    |            |                                                      |                                |      |      |      |
 |    [Word Break](https://leetcode.com/problems/word-break)    |            |                                                      |                                |      |      |      |
 | [Predict the Winner](https://leetcode.com/problems/predict-the-winner) |            |                                                      |                                |      |      |      |
-| [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) |            |                                                      |                                |      |      |      |
-| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) |            |                                                      |                                |      |      |      |
+| [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) | Medium     | [C++](./C++/longest-palindraomic-subsequence.cpp)    |                                |      |      |      |
+| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | Medium     | [C++](./C++/longest-palindraomic-substring.cpp)      |                                |      |      |      |
 | [Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences) |            |                                                      |                                |      |      |      |
 |                                                              |            |                                                      |                                |      |      |      |
 |                                                              |            |                                                      |                                |      |      |      |
