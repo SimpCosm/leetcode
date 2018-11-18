@@ -7,6 +7,7 @@
  */
 
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 // Define f[i,w] to be the maximum value that can be attained
@@ -23,31 +24,13 @@ int dp0(int N, int M, int *w, int *d) {
         f[i][0] = 0;
 
         for (int j = 1; j <= M; j++) {
-            if (j < w[i]) f[i][j] = f[i-1][j];
+            if  (w[i] > j) f[i][j] = f[i-1][j];
             else f[i][j] = max(f[i-1][j], f[i-1][j-w[i]]+d[i]);
         }
     }
 }
 
 int dp1(int N, int M, int *w, int *d) {
-    int **f = new int*[N+1];
-    for (int i = 0; i <= N; i++)
-        f[i] = new int[M+1];
-
-    for (int j = 0; j <= M; j++)
-        f[0][j] = 0;
-
-    for (int i = 1; i <= N; i++) {
-        f[i][0] = 0;
-
-        for (int j = w[i]; j <= M; j++) {
-            f[i][j] = max(f[i-1][j], f[i-1][j-w[i]]+d[i]);
-        }
-    }
-    return f[N][M];
-}
-
-int dp2(int N, int M, int *w, int *d) {
     int *f = new int[M+1];
     for (int j = 0; j <= M; j++)
         f[j] = 0;
