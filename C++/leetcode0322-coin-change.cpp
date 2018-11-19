@@ -3,25 +3,25 @@
  *
  * Author: Houmin Wei <houmin.wei@outlook.com>
  *
- * Source: https://leetcode.com/problems/coin-changes
+ * Source: https://leetcode.com/problems/coin-change
  */
 
-#include <string>
+#include <vector>
 using namespace std;
 
 class Solution {
 public:
-    int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
-        int m = obstacleGrid.size(), n = obstacleGrid[0].size();
-        vector<vector<int>> f(m+1, vector<int>(n+1, 0));
-        f[0][1] = 1;
-        for (int i = 1; i <= m; i++) {
-            for (int j = 1; j <= n; j++) {
-                if (obstacleGrid[i-1][j-1] == 0) {
-                    f[i][j] = f[i-1][j] + f[i][j-1];
+    int coinChange(vector<int>& coins, int amount) {
+        vector<int> dp(amount + 1, amount + 1);
+        dp[0] = 0;
+        for (int i = 1; i <= amount; ++i) {
+            for (int j = 0; j < coins.size(); ++j) {
+                if (coins[j] <= i) {
+                    dp[i] = min(dp[i], dp[i - coins[j]] + 1);
                 }
             }
         }
-        return f[m][n];
+        return (dp[amount] > amount) ? -1 : dp[amount];
     }
 };
+
