@@ -473,43 +473,46 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 
 
 
-|                            Title                             | Difficulty | C++                                                  | Python                         | Go   | Tag  | Note           |
-| :----------------------------------------------------------: | ---------- | ---------------------------------------------------- | ------------------------------ | ---- | ---- | -------------- |
-| [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy       | [C++](./C++/climbing-stairs.cpp)                     | [Python](./climbing-stairs.py) |      |      |                |
-| [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy       | [C++](./C++/min-cost-climbing-stairs.cpp)            |                                |      |      |                |
-| [Edit Distance](https://leetcode.com/problems/edit-distance/) | Hard       | [C++](./C++/edit-distance.cpp)                       |                                |      |      |                |
-| [ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium     | [C++](./C++/longest-increasing-subsequence.cpp)      |                                |      |      |                |
-| [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray) | Medium     | [C++](./C++/maximum-length-of-repeated-subarray.cpp) |                                |      |      |                |
-| [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | Medium     | [C++](./minimum-path-sum.cpp)                        |                                |      |      |                |
-|  [Unique Paths](https://leetcode.com/problems/unique-paths)  | Medium     | [C++](./unique-paths.cpp)                            |                                |      |      |                |
-| [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | Medium     | [C++](./unique-paths-ii.cpp)                         |                                |      |      |                |
-| [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | Medium     | [C++](./C++/unique-binary-search-trees.cpp)          |                                |      |      |                |
-| [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) | Medium     | [C++](./C++/unique-binary-search-trees-ii.cpp)       |                                |      |      |                |
-|      [Triangle](https://leetcode.com/problems/triangle)      | Medium     |                                                      |                                |      |      |                |
-|       [Charm Bracelet](http://poj.org/problem?id=3624)       | Medium     | [C++](./C++/poj3624-charm-bracelet.cpp)              |                                |      |      | `0/1背包问题`  |
-|   [Coin Change](https://leetcode.com/problems/coin-change)   | Medium     |                                                      |                                |      |      | `完全背包问题` |
-| [Maximal Square](https://leetcode.com/problems/maximal-square) | Medium     | [C++](./C++/maximal-square.cpp)                      |                                |      |      |                |
-| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | Hard       |                                                      |                                |      |      |                |
-|     [Can I Win](https://leetcode.com/problems/can-i-win)     | Medium     | [C++](./C++/can-i-win.cpp)                           |                                |      |      |                |
-|    [Target Sum](https://leetcode.com/problems/target-sum)    |            |                                                      |                                |      |      |                |
-|    [Word Break](https://leetcode.com/problems/word-break)    |            |                                                      |                                |      |      |                |
-| [Predict the Winner](https://leetcode.com/problems/predict-the-winner) |            |                                                      |                                |      |      |                |
-| [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) | Medium     | [C++](./C++/longest-palindraomic-subsequence.cpp)    |                                |      |      |                |
-| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | Medium     | [C++](./C++/longest-palindraomic-substring.cpp)      |                                |      |      |                |
-| [Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences) |            |                                                      |                                |      |      |                |
-|                                                              |            |                                                      |                                |      |      |                |
-|                                                              |            |                                                      |                                |      |      |                |
-| [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) |            |                                                      |                                |      |      |                |
-| [Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings) |            |                                                      |                                |      |      |                |
-| [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |            |                                                      |                                |      |      |                |
-| [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard) |            |                                                      |                                |      |      |                |
-| [Delete and Earn](https://leetcode.com/problems/delete-and-earn) |            |                                                      |                                |      |      |                |
-| [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices) |            |                                                      |                                |      |      |                |
-| [Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence) |            |                                                      |                                |      |      |                |
-|   [Decode Ways](https://leetcode.com/problems/decode-ways)   |            |                                                      |                                |      |      |                |
-| [Decode Ways II](https://leetcode.com/problems/decode-ways-ii) |            |                                                      |                                |      |      |                |
-| [Shopping Offers](https://leetcode.com/problems/shopping-offers) |            |                                                      |                                |      |      |                |
-|                                                              |            |                                                      |                                |      |      |                |
+|                            Title                             | Difficulty | C++                                                  | Python                         | Go   | Tag  | Note              |
+| :----------------------------------------------------------: | ---------- | ---------------------------------------------------- | ------------------------------ | ---- | ---- | ----------------- |
+| [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy       | [C++](./C++/climbing-stairs.cpp)                     | [Python](./climbing-stairs.py) |      |      |                   |
+| [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy       | [C++](./C++/min-cost-climbing-stairs.cpp)            |                                |      |      |                   |
+| [Edit Distance](https://leetcode.com/problems/edit-distance/) | Hard       | [C++](./C++/edit-distance.cpp)                       |                                |      |      |                   |
+| [ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium     | [C++](./C++/longest-increasing-subsequence.cpp)      |                                |      |      |                   |
+| [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray) | Medium     | [C++](./C++/maximum-length-of-repeated-subarray.cpp) |                                |      |      |                   |
+| [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | Medium     | [C++](./minimum-path-sum.cpp)                        |                                |      |      |                   |
+|  [Unique Paths](https://leetcode.com/problems/unique-paths)  | Medium     | [C++](./unique-paths.cpp)                            |                                |      |      |                   |
+| [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | Medium     | [C++](./unique-paths-ii.cpp)                         |                                |      |      |                   |
+| [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | Medium     | [C++](./C++/unique-binary-search-trees.cpp)          |                                |      |      |                   |
+| [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) | Medium     | [C++](./C++/unique-binary-search-trees-ii.cpp)       |                                |      |      |                   |
+|      [Triangle](https://leetcode.com/problems/triangle)      | Medium     | [C++](./C++/leetcode0120-triangle.cpp)               |                                |      |      |                   |
+|       [Charm Bracelet](http://poj.org/problem?id=3624)       | Medium     | [C++](./C++/poj3624-charm-bracelet.cpp)              |                                |      |      | `0/1背包问题`     |
+|   [Coin Change](https://leetcode.com/problems/coin-change)   | Medium     | [C++](./C++/leetcode0322-coin-change.cpp)            |                                |      |      | `完全背包问题`    |
+| [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | Medium     | [C++](./C++/leetcode0518-coin-change-ii.cpp)         |                                |      |      | `完全背包问题`    |
+| [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Medium     | [C++](./C++/leetcode0279-perfect-squares.cpp)        |                                |      |      | `0/1背包问题`     |
+| [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | Medium     | [C++](./C++/leetcode0474-ones-and-zeros.cpp)         |                                |      |      | `二维0/1背包问题` |
+| [Maximal Square](https://leetcode.com/problems/maximal-square) | Medium     | [C++](./C++/maximal-square.cpp)                      |                                |      |      |                   |
+| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | Hard       |                                                      |                                |      |      |                   |
+|     [Can I Win](https://leetcode.com/problems/can-i-win)     | Medium     | [C++](./C++/can-i-win.cpp)                           |                                |      |      |                   |
+|    [Target Sum](https://leetcode.com/problems/target-sum)    |            |                                                      |                                |      |      |                   |
+|    [Word Break](https://leetcode.com/problems/word-break)    |            |                                                      |                                |      |      |                   |
+| [Predict the Winner](https://leetcode.com/problems/predict-the-winner) |            |                                                      |                                |      |      |                   |
+| [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) | Medium     | [C++](./C++/longest-palindraomic-subsequence.cpp)    |                                |      |      |                   |
+| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | Medium     | [C++](./C++/longest-palindraomic-substring.cpp)      |                                |      |      |                   |
+| [Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences) |            |                                                      |                                |      |      |                   |
+|                                                              |            |                                                      |                                |      |      |                   |
+|                                                              |            |                                                      |                                |      |      |                   |
+| [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) |            |                                                      |                                |      |      |                   |
+| [Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings) |            |                                                      |                                |      |      |                   |
+| [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |            |                                                      |                                |      |      |                   |
+| [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard) |            |                                                      |                                |      |      |                   |
+| [Delete and Earn](https://leetcode.com/problems/delete-and-earn) |            |                                                      |                                |      |      |                   |
+| [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices) |            |                                                      |                                |      |      |                   |
+| [Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence) |            |                                                      |                                |      |      |                   |
+|   [Decode Ways](https://leetcode.com/problems/decode-ways)   |            |                                                      |                                |      |      |                   |
+| [Decode Ways II](https://leetcode.com/problems/decode-ways-ii) |            |                                                      |                                |      |      |                   |
+| [Shopping Offers](https://leetcode.com/problems/shopping-offers) |            |                                                      |                                |      |      |                   |
+|                                                              |            |                                                      |                                |      |      |                   |
 
 
 
