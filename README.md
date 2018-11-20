@@ -357,26 +357,6 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 
 
 
-### Recursion
-| Title | Difficulty | C++  | Python | Go   | Tag  | Note |
-| ----- | ---------- | ---- | ------ | ---- | ---- | ---- |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-
-
-
 ### Binary Search
 | Title                                                        | Difficulty | C++  | Python | Go   | Tag  | Note |
 | ------------------------------------------------------------ | ---------- | ---- | ------ | ---- | ---- | ---- |
@@ -448,24 +428,44 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses) |            |      |        |      |      |      |
 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) |            |      |        |      |      |      |
 
+### Recursion
+
+| Title                                                        | Difficulty | C++                                           | Python | Go   | Tag  | Note       |
+| ------------------------------------------------------------ | ---------- | --------------------------------------------- | ------ | ---- | ---- | ---------- |
+| [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path) | Easy       |                                               |        |      |      |            |
+| [放平果](http://poj.org/problem?id=1664)                     | Medium     | [C++](./C++/poj1664-placing-apple.cpp)        |        |      |      | `分类讨论` |
+| [Hanoi](http://bailian.openjudge.cn/practice/4147)           | Medium     | [C++](./C++/leetcode0039-combination-sum.cpp) |        |      |      |            |
+| [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) | Medium     |                                               |        |      |      |            |
+| [K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) | Medium     |                                               |        |      |      |            |
+| [Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state) | Medium     |                                               |        |      |      |            |
+| [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees) | Medium     |                                               |        |      |      |            |
+| [Number of Atoms](https://leetcode.com/problems/number-of-atoms) | Hard       |                                               |        |      |      |            |
+| [Special Binary String](https://leetcode.com/problems/special-binary-string) | Hard       |                                               |        |      |      |            |
+
 ### Backtracking
 
-| Title                                                        | Difficulty        | C++                              | Python | Go   | Tag  | Note |
-| ------------------------------------------------------------ | ----------------- | -------------------------------- | ------ | ---- | ---- | ---- |
-| [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium            | [C++](./C++/combination-sum.cpp) |        |      |      |      |
-| [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | *O(k \* C(n, k))* | [C++](./C++/combination-sum.cpp) |        |      |      |      |
-| [Combination Sum III](https://leetcode.com/problems/combination-sum-iii) |                   |                                  |        |      |      |      |
-| [Permutations](https://leetcode.com/problems/permutations)   |                   |                                  |        |      |      |      |
-| [Permutations II](https://leetcode.com/problems/permutations-ii) |                   |                                  |        |      |      |      |
-| [Subsets](https://leetcode.com/problems/subsets)             |                   |                                  |        |      |      |      |
-| [Subsets II](https://leetcode.com/problems/subsets-ii)       |                   |                                  |        |      |      |      |
-| [N-Queens](https://leetcode.com/problems/n-queens)           |                   |                                  |        |      |      |      |
-| [N-Queens II](https://leetcode.com/problems/n-queens-ii)     |                   |                                  |        |      |      |      |
-| [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) |                   |                                  |        |      |      |      |
-| [Word Search](https://leetcode.com/problems/word-search)     |                   |                                  |        |      |      |      |
-| [Word Search II](https://leetcode.com/problems/word-search-ii) |                   |                                  |        |      |      |      |
-| [Gray Code](https://leetcode.com/problems/gray-code)         |                   |                                  |        |      |      |      |
-| [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) |                   |                                  |        |      |      |      |
+| Title                                                        | Difficulty | C++                              | Python | Go   | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | -------------------------------- | ------ | ---- | ---- | ---- |
+| [Red and Black](http://poj.org/problem?id=1979)              | Medium     |                                  |        |      |      |      |
+| [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium     | [C++](./C++/combination-sum.cpp) |        |      |      |      |
+| [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium     | [C++](./C++/combination-sum.cpp) |        |      |      |      |
+| [Combination Sum III](https://leetcode.com/problems/combination-sum-iii) | Medium     |                                  |        |      |      |      |
+| [Permutations](https://leetcode.com/problems/permutations)   | Medium     |                                  |        |      |      |      |
+| [Permutations II](https://leetcode.com/problems/permutations-ii) | Medium     |                                  |        |      |      |      |
+| [Subsets](https://leetcode.com/problems/subsets)             | Medium     |                                  |        |      |      |      |
+| [Subsets II](https://leetcode.com/problems/subsets-ii)       | Medium     |                                  |        |      |      |      |
+| [N-Queens](https://leetcode.com/problems/n-queens)           | Hard       |                                  |        |      |      |      |
+| [N-Queens II](https://leetcode.com/problems/n-queens-ii)     | Hard       |                                  |        |      |      |      |
+| [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | Medium     |                                  |        |      |      |      |
+| [Word Search](https://leetcode.com/problems/word-search)     | Medium     |                                  |        |      |      |      |
+| [Word Search II](https://leetcode.com/problems/word-search-ii) | Hard       |                                  |        |      |      |      |
+| [Gray Code](https://leetcode.com/problems/gray-code)         | Medium     |                                  |        |      |      |      |
+| [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | Medium     |                                  |        |      |      |      |
+| [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | Medium     |                                  |        |      |      |      |
+|                                                              |            |                                  |        |      |      |      |
+|                                                              |            |                                  |        |      |      |      |
+|                                                              |            |                                  |        |      |      |      |
+|                                                              |            |                                  |        |      |      |      |
 
 
 
@@ -495,7 +495,7 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | Hard       |                                                      |                                |      |      |                   |
 |     [Can I Win](https://leetcode.com/problems/can-i-win)     | Medium     | [C++](./C++/can-i-win.cpp)                           |                                |      |      |                   |
 |    [Target Sum](https://leetcode.com/problems/target-sum)    |            |                                                      |                                |      |      |                   |
-|    [Word Break](https://leetcode.com/problems/word-break)    |            |                                                      |                                |      |      |                   |
+|    [Word Break](https://leetcode.com/problems/word-break)    | Medium     | [C++](./C++/leetcode0139-word-break.cpp)             |                                |      |      |                   |
 | [Predict the Winner](https://leetcode.com/problems/predict-the-winner) |            |                                                      |                                |      |      |                   |
 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) | Medium     | [C++](./C++/longest-palindraomic-subsequence.cpp)    |                                |      |      |                   |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | Medium     | [C++](./C++/longest-palindraomic-substring.cpp)      |                                |      |      |                   |
