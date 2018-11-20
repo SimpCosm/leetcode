@@ -444,28 +444,36 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 
 ### Backtracking
 
-| Title                                                        | Difficulty | C++                                           | Python | Go   | Tag  | Note |
-| ------------------------------------------------------------ | ---------- | --------------------------------------------- | ------ | ---- | ---- | ---- |
-| [Red and Black](http://poj.org/problem?id=1979)              | Medium     | [C++](./C++/poj1979-red-and-black.cpp)        |        |      |      |      |
-| [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium     | [C++](./C++/combination-sum.cpp)              |        |      |      |      |
-| [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium     | [C++](./C++/combination-sum.cpp)              |        |      |      |      |
-| [Combination Sum III](https://leetcode.com/problems/combination-sum-iii) | Medium     |                                               |        |      |      |      |
-| [Permutations](https://leetcode.com/problems/permutations)   | Medium     | [C++](./C++/leetcode0046-permutations.cpp)    |        |      |      |      |
-| [Permutations II](https://leetcode.com/problems/permutations-ii) | Medium     | [C++](./C++/leetcode0047-permutations-ii.cpp) |        |      |      |      |
-| [Subsets](https://leetcode.com/problems/subsets)             | Medium     |                                               |        |      |      |      |
-| [Subsets II](https://leetcode.com/problems/subsets-ii)       | Medium     |                                               |        |      |      |      |
-| [N-Queens](https://leetcode.com/problems/n-queens)           | Hard       | [C++](./C++/leetcode0051-n-queens.cpp)        |        |      |      |      |
-| [N-Queens II](https://leetcode.com/problems/n-queens-ii)     | Hard       | [C++](./C++/leetcode0052-n-queens-ii.cpp)     |        |      |      |      |
-| [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | Medium     |                                               |        |      |      |      |
-| [Word Search](https://leetcode.com/problems/word-search)     | Medium     |                                               |        |      |      |      |
-| [Word Search II](https://leetcode.com/problems/word-search-ii) | Hard       |                                               |        |      |      |      |
-| [Gray Code](https://leetcode.com/problems/gray-code)         | Medium     |                                               |        |      |      |      |
-| [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | Medium     |                                               |        |      |      |      |
-| [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | Medium     |                                               |        |      |      |      |
-|                                                              |            |                                               |        |      |      |      |
-|                                                              |            |                                               |        |      |      |      |
-|                                                              |            |                                               |        |      |      |      |
-|                                                              |            |                                               |        |      |      |      |
+| Title                                                        | Difficulty | C++                                               | Python | Go   | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | ------------------------------------------------- | ------ | ---- | ---- | ---- |
+| [Red and Black](http://poj.org/problem?id=1979)              | Medium     | [C++](./C++/poj1979-red-and-black.cpp)            |        |      |      |      |
+| [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium     | [C++](./C++/leetcode0039-combination-sum.cpp)     |        |      |      |      |
+| [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium     | [C++](./C++/leetcode0040-combination-sum-ii.cpp)  |        |      |      |      |
+| [Combination Sum III](https://leetcode.com/problems/combination-sum-iii) | Medium     | [C++](./C++/leetcode0216-combination-sum-iii.cpp) |        |      |      |      |
+| [Combinations](https://leetcode.com/problems/combinations)   | Medium     |                                                   |        |      |      |      |
+| [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | Medium     |                                                   |        |      |      |      |
+| [Permutations](https://leetcode.com/problems/permutations)   | Medium     | [C++](./C++/leetcode0046-permutations.cpp)        |        |      |      |      |
+| [Permutations II](https://leetcode.com/problems/permutations-ii) | Medium     | [C++](./C++/leetcode0047-permutations-ii.cpp)     |        |      |      |      |
+| [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | Medium     |                                                   |        |      |      |      |
+| [Subsets](https://leetcode.com/problems/subsets)             | Medium     | [C++](./C++/leetcode0078-subsets.cpp)             |        |      |      |      |
+| [Subsets II](https://leetcode.com/problems/subsets-ii)       | Medium     | [C++](./C++/leetcode0078-subsets-ii.cpp)          |        |      |      |      |
+| [N-Queens](https://leetcode.com/problems/n-queens)           | Hard       | [C++](./C++/leetcode0051-n-queens.cpp)            |        |      |      |      |
+| [N-Queens II](https://leetcode.com/problems/n-queens-ii)     | Hard       | [C++](./C++/leetcode0052-n-queens-ii.cpp)         |        |      |      |      |
+| [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard       |                                                   |        |      |      |      |
+| [Word Search](https://leetcode.com/problems/word-search)     | Medium     |                                                   |        |      |      |      |
+| [Word Search II](https://leetcode.com/problems/word-search-ii) | Hard       |                                                   |        |      |      |      |
+| [Gray Code](https://leetcode.com/problems/gray-code)         | Medium     |                                                   |        |      |      |      |
+| [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | Medium     |                                                   |        |      |      |      |
+| [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | Medium     |                                                   |        |      |      |      |
+| [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard       |                                                   |        |      |      |      |
+| [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | Hard       |                                                   |        |      |      |      |
+| [Word Ladder](https://leetcode.com/problems/word-ladder)     | Medium     |                                                   |        |      |      |      |
+| [Word Ladder II](https://leetcode.com/problems/word-ladder-ii) | Hard       |                                                   |        |      |      |      |
+| [Additive Number](https://leetcode.com/problems/additive-number) | Medium     |                                                   |        |      |      |      |
+| [Binary Watch](https://leetcode.com/problems/binary-watch)   | Easy       |                                                   |        |      |      |      |
+| [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits) | Medium     |                                                   |        |      |      |      |
+| [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement) | Medium     |                                                   |        |      |      |      |
+| [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation) | Easy       |                                                   |        |      |      |      |
 
 
 
@@ -521,19 +529,53 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 | Title                                                        | Difficulty | C++                                        | Python | Go   | Tag  | Note |
 | ------------------------------------------------------------ | ---------- | ------------------------------------------ | ------ | ---- | ---- | ---- |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium     | [C++](./C++/container-with-most-water.cpp) |        |      |      |      |
+| [Jump Game](https://leetcode.com/problems/jump-game)         | Medium     |                                            |        |      |      |      |
+| [Jump Game II](https://leetcode.com/problems/jump-game-ii)   | Hard       |                                            |        |      |      |      |
+| [Gas Station](https://leetcode.com/problems/gas-station)     | Medium     |                                            |        |      |      |      |
+| [Candy](https://leetcode.com/problems/candy)                 | Hard       |                                            |        |      |      |      |
+| [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) | Hard       |                                            |        |      |      |      |
+| [Create Maximum Number](https://leetcode.com/problems/create-maximum-number) | Hard       |                                            |        |      |      |      |
+| [Patching Array](https://leetcode.com/problems/patching-array) | Hard       |                                            |        |      |      |      |
+| [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) | Medium     |                                            |        |      |      |      |
+| [Remove K Digits](https://leetcode.com/problems/remove-k-digits) | Medium     |                                            |        |      |      |      |
+| [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) | Medium     |                                            |        |      |      |      |
+| [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons) | Medium     |                                            |        |      |      |      |
+| [Assign Cookies](https://leetcode.com/problems/assign-cookies) | Easy       |                                            |        |      |      |      |
+| [IPO](https://leetcode.com/problems/ipo)                     | Hard       |                                            |        |      |      |      |
+| [Dota2 Senate](https://leetcode.com/problems/dota2-senate)   | Medium     |                                            |        |      |      |      |
+| [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences) | Medium     |                                            |        |      |      |      |
+| [Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits) | Medium     |                                            |        |      |      |      |
+| [Partition Labels](https://leetcode.com/problems/partition-labels) | Medium     |                                            |        |      |      |      |
+| [Reorganize String](https://leetcode.com/problems/reorganize-string) | Medium     |                                            |        |      |      |      |
+| [Lemonade Change](https://leetcode.com/problems/lemonade-change) | Easy       |                                            |        |      |      |      |
+| [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted) | Medium     |                                            |        |      |      |      |
+| [Boats to Save People](https://leetcode.com/problems/boats-to-save-people) | Medium     |                                            |        |      |      |      |
+| [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation) | Medium     |                                            |        |      |      |      |
+| [Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle) | Medium     |                                            |        |      |      |      |
+| [Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix) | Medium     |                                            |        |      |      |      |
 |                                                              |            |                                            |        |      |      |      |
 |                                                              |            |                                            |        |      |      |      |
-|                                                              |            |                                            |        |      |      |      |
-|                                                              |            |                                            |        |      |      |      |
-|                                                              |            |                                            |        |      |      |      |
-|                                                              |            |                                            |        |      |      |      |
-|                                                              |            |                                            |        |      |      |      |
-|                                                              |            |                                            |        |      |      |      |
-|                                                              |            |                                            |        |      |      |      |
-|                                                              |            |                                            |        |      |      |      |
-|                                                              |            |                                            |        |      |      |      |
-|                                                              |            |                                            |        |      |      |      |
-|                                                              |            |                                            |        |      |      |      |
+
+
+
+### Union Find
+
+| Title                                                        | Difficulty | C++  | Python | Go   | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | ---- | ------ | ---- | ---- | ---- |
+| [Surrounded Regions](https://leetcode.com/problems/surrounded-regions) | Medium     |      |        |      |      |      |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands) | Medium     |      |        |      |      |      |
+| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) | Hard       |      |        |      |      |      |
+| [Accounts Merge](https://leetcode.com/problems/accounts-merge) | Medium     |      |        |      |      |      |
+| [Friend Circles](https://leetcode.com/problems/friend-circles) | Medium     |      |        |      |      |      |
+| [Redundant Connection](https://leetcode.com/problems/redundant-connection) | Medium     |      |        |      |      |      |
+| [Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii) | Hard       |      |        |      |      |      |
+| [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands) | Hard       |      |        |      |      |      |
+| [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water) | Hard       |      |        |      |      |      |
+| [Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit) | Hard       |      |        |      |      |      |
+| [Similar String Groups](https://leetcode.com/problems/similar-string-groups) | Hard       |      |        |      |      |      |
+| [Minimize Malware Spread II](https://leetcode.com/problems/minimize-malware-spread-ii) | Hard       |      |        |      |      |      |
+|                                                              |            |      |        |      |      |      |
+|                                                              |            |      |        |      |      |      |
 
 
 

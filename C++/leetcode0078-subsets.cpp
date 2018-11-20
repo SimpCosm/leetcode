@@ -18,7 +18,6 @@ public:
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<vector<int>> ret;
         vector<int> subset;
-        sort(nums.begin(), nums.end());
         findSubsets(nums, 0, subset, ret);
         return ret;
     }
