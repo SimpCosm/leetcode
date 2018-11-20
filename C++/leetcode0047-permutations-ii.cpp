@@ -10,32 +10,29 @@
  */
 
 #include <vector>
-#include <set>
+#include <algorithm>
 using namespace std;
 
 class Solution {
 public:
     vector<vector<int>> permuteUnique(vector<int>& nums) {
-        set<vector<int>> ret;
-        vector<int> permution;
-        findPermution(nums, permution, ret);
-        return vector<vector<int>> (ret.begin(), ret.end());
+        sort(nums.begin(), nums.end());
+        vector<vector<int>> perms;
+        permute(nums, 0, perms);
+        return perms;
     }
-
-    void findPermution(vector<int>& nums, vector<int>& permution, set<vector<int>>& ret) {
-        if (nums.size() == 0)
-        {
-            ret.insert(permution);
-            return ;
-        }
-
-        for (int i = 0; i < nums.size(); i++) {
-            int num = nums[i];
-            permution.push_back(num);
-            nums.erase(nums.begin()+i);
-            findPermution(nums, permution, ret);
-            permution.pop_back();
-            nums.insert(nums.begin()+i, num);
+private:
+    void permute(vector<int> nums, int start, vector<vector<int>>& perms) {
+        int n = nums.size();
+        if (start == n - 1) {
+            perms.push_back(nums);
+        } else {
+            for (int i = start; i < n; i++) {
+                if ((i == start) || (nums[i] != nums[start])) {
+                    swap(nums[i], nums[start]);
+                    permute(nums, start + 1, perms);
+                }
+            }
         }
     }
 };

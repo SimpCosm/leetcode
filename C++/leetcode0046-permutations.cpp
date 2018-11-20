@@ -14,30 +14,23 @@ using namespace std;
 
 class Solution {
 public:
-    vector<vector<int>> permute(vector<int>& nums) {
-        vector<vector<int>> ret;
-        if (nums.size() == 0)
-            return ret;
+    vector<vector<int> > permute(vector<int> &num) {
+	    vector<vector<int> > result;
 
-        vector<int> permution;
-        findPermution(nums, permution, ret);
-        return ret;
+	    backtrack(num, 0, result);
+	    return result;
     }
 
-    void findPermution(vector<int>& nums, vector<int>& permution, vector<vector<int>>& ret) {
-        if (nums.size() == 0)
-        {
-            ret.push_back(permution);
-            return ;
-        }
+	void backtrack(vector<int> &num, int begin, vector<vector<int> > &result)	{
+		if (begin >= num.size()) {
+		    result.push_back(num);
+		    return;
+		}
 
-        for (int i = 0; i < nums.size(); i++) {
-            int num = nums[i];
-            permution.push_back(num);
-            nums.erase(nums.begin()+i);
-            findPermution(nums, permution, ret);
-            permution.pop_back();
-            nums.insert(nums.begin()+i, num);
-        }
+		for (int i = begin; i < num.size(); i++) {
+		    swap(num[begin], num[i]);
+		    backtrack(num, begin + 1, result);
+            swap(num[begin], num[i]);
+		}
     }
 };

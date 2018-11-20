@@ -444,28 +444,28 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 
 ### Backtracking
 
-| Title                                                        | Difficulty | C++                              | Python | Go   | Tag  | Note |
-| ------------------------------------------------------------ | ---------- | -------------------------------- | ------ | ---- | ---- | ---- |
-| [Red and Black](http://poj.org/problem?id=1979)              | Medium     |                                  |        |      |      |      |
-| [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium     | [C++](./C++/combination-sum.cpp) |        |      |      |      |
-| [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium     | [C++](./C++/combination-sum.cpp) |        |      |      |      |
-| [Combination Sum III](https://leetcode.com/problems/combination-sum-iii) | Medium     |                                  |        |      |      |      |
-| [Permutations](https://leetcode.com/problems/permutations)   | Medium     |                                  |        |      |      |      |
-| [Permutations II](https://leetcode.com/problems/permutations-ii) | Medium     |                                  |        |      |      |      |
-| [Subsets](https://leetcode.com/problems/subsets)             | Medium     |                                  |        |      |      |      |
-| [Subsets II](https://leetcode.com/problems/subsets-ii)       | Medium     |                                  |        |      |      |      |
-| [N-Queens](https://leetcode.com/problems/n-queens)           | Hard       |                                  |        |      |      |      |
-| [N-Queens II](https://leetcode.com/problems/n-queens-ii)     | Hard       |                                  |        |      |      |      |
-| [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | Medium     |                                  |        |      |      |      |
-| [Word Search](https://leetcode.com/problems/word-search)     | Medium     |                                  |        |      |      |      |
-| [Word Search II](https://leetcode.com/problems/word-search-ii) | Hard       |                                  |        |      |      |      |
-| [Gray Code](https://leetcode.com/problems/gray-code)         | Medium     |                                  |        |      |      |      |
-| [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | Medium     |                                  |        |      |      |      |
-| [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | Medium     |                                  |        |      |      |      |
-|                                                              |            |                                  |        |      |      |      |
-|                                                              |            |                                  |        |      |      |      |
-|                                                              |            |                                  |        |      |      |      |
-|                                                              |            |                                  |        |      |      |      |
+| Title                                                        | Difficulty | C++                                           | Python | Go   | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | --------------------------------------------- | ------ | ---- | ---- | ---- |
+| [Red and Black](http://poj.org/problem?id=1979)              | Medium     | [C++](./C++/poj1979-red-and-black.cpp)        |        |      |      |      |
+| [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium     | [C++](./C++/combination-sum.cpp)              |        |      |      |      |
+| [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium     | [C++](./C++/combination-sum.cpp)              |        |      |      |      |
+| [Combination Sum III](https://leetcode.com/problems/combination-sum-iii) | Medium     |                                               |        |      |      |      |
+| [Permutations](https://leetcode.com/problems/permutations)   | Medium     | [C++](./C++/leetcode0046-permutations.cpp)    |        |      |      |      |
+| [Permutations II](https://leetcode.com/problems/permutations-ii) | Medium     | [C++](./C++/leetcode0047-permutations-ii.cpp) |        |      |      |      |
+| [Subsets](https://leetcode.com/problems/subsets)             | Medium     |                                               |        |      |      |      |
+| [Subsets II](https://leetcode.com/problems/subsets-ii)       | Medium     |                                               |        |      |      |      |
+| [N-Queens](https://leetcode.com/problems/n-queens)           | Hard       | [C++](./C++/leetcode0051-n-queens.cpp)        |        |      |      |      |
+| [N-Queens II](https://leetcode.com/problems/n-queens-ii)     | Hard       | [C++](./C++/leetcode0052-n-queens-ii.cpp)     |        |      |      |      |
+| [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | Medium     |                                               |        |      |      |      |
+| [Word Search](https://leetcode.com/problems/word-search)     | Medium     |                                               |        |      |      |      |
+| [Word Search II](https://leetcode.com/problems/word-search-ii) | Hard       |                                               |        |      |      |      |
+| [Gray Code](https://leetcode.com/problems/gray-code)         | Medium     |                                               |        |      |      |      |
+| [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | Medium     |                                               |        |      |      |      |
+| [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | Medium     |                                               |        |      |      |      |
+|                                                              |            |                                               |        |      |      |      |
+|                                                              |            |                                               |        |      |      |      |
+|                                                              |            |                                               |        |      |      |      |
+|                                                              |            |                                               |        |      |      |      |
 
 
 
