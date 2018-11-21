@@ -17,21 +17,18 @@ class Solution {
 public:
     vector<vector<int>> permuteUnique(vector<int>& nums) {
         sort(nums.begin(), nums.end());
-        vector<vector<int>> perms;
-        permute(nums, 0, perms);
-        return perms;
+        set<vector<int>> ret;
+        dfs(nums, 0, ret);
+        return vector<vector<int>>(ret.begin(), ret.end());
     }
-private:
-    void permute(vector<int> nums, int start, vector<vector<int>>& perms) {
-        int n = nums.size();
-        if (start == n - 1) {
-            perms.push_back(nums);
-        } else {
-            for (int i = start; i < n; i++) {
-                if ((i == start) || (nums[i] != nums[start])) {
-                    swap(nums[i], nums[start]);
-                    permute(nums, start + 1, perms);
-                }
+
+    void dfs(vector<int>& nums, int begin, set<vector<int>>& ret) {
+        if (begin == nums.size()) { ret.insert(nums); return; }
+        for (int i = begin; i < nums.size(); i++) {
+            if (i == begin || nums[i] != nums[begin]) {
+                swap(nums[begin], nums[i]);
+                dfs(nums, begin+1, ret);
+                swap(nums[begin], nums[i]);
             }
         }
     }
