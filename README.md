@@ -124,8 +124,6 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 ### Stack
 | Title                                                        | Difficulty | C++                                        | Python | Go   | Tag  | Note |
 | ------------------------------------------------------------ | ---------- | ------------------------------------------ | ------ | ---- | ---- | ---- |
-| [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) |            |                                            |        |      |      |      |
-| [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) |            |                                            |        |      |      |      |
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy       | [C++](./C++/valid-parentheses.cpp)         |        |      |      |      |
 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | Medium     | [C++](./C++/longest-valid-parentheses.cpp) |        |      |      |      |
 | [Min Stack](https://leetcode.com/problems/min-stack)         |            |                                            |        |      |      |      |
@@ -444,36 +442,32 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 
 ### Backtracking
 
-| Title                                                        | Difficulty | C++                                               | Python | Go   | Tag  | Note |
-| ------------------------------------------------------------ | ---------- | ------------------------------------------------- | ------ | ---- | ---- | ---- |
-| [Red and Black](http://poj.org/problem?id=1979)              | Medium     | [C++](./C++/poj1979-red-and-black.cpp)            |        |      |      |      |
-| [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium     | [C++](./C++/leetcode0039-combination-sum.cpp)     |        |      |      |      |
-| [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium     | [C++](./C++/leetcode0040-combination-sum-ii.cpp)  |        |      |      |      |
-| [Combination Sum III](https://leetcode.com/problems/combination-sum-iii) | Medium     | [C++](./C++/leetcode0216-combination-sum-iii.cpp) |        |      |      |      |
-| [Combinations](https://leetcode.com/problems/combinations)   | Medium     |                                                   |        |      |      |      |
-| [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | Medium     |                                                   |        |      |      |      |
-| [Permutations](https://leetcode.com/problems/permutations)   | Medium     | [C++](./C++/leetcode0046-permutations.cpp)        |        |      |      |      |
-| [Permutations II](https://leetcode.com/problems/permutations-ii) | Medium     | [C++](./C++/leetcode0047-permutations-ii.cpp)     |        |      |      |      |
-| [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | Medium     |                                                   |        |      |      |      |
-| [Subsets](https://leetcode.com/problems/subsets)             | Medium     | [C++](./C++/leetcode0078-subsets.cpp)             |        |      |      |      |
-| [Subsets II](https://leetcode.com/problems/subsets-ii)       | Medium     | [C++](./C++/leetcode0078-subsets-ii.cpp)          |        |      |      |      |
-| [N-Queens](https://leetcode.com/problems/n-queens)           | Hard       | [C++](./C++/leetcode0051-n-queens.cpp)            |        |      |      |      |
-| [N-Queens II](https://leetcode.com/problems/n-queens-ii)     | Hard       | [C++](./C++/leetcode0052-n-queens-ii.cpp)         |        |      |      |      |
-| [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard       |                                                   |        |      |      |      |
-| [Word Search](https://leetcode.com/problems/word-search)     | Medium     |                                                   |        |      |      |      |
-| [Word Search II](https://leetcode.com/problems/word-search-ii) | Hard       |                                                   |        |      |      |      |
-| [Gray Code](https://leetcode.com/problems/gray-code)         | Medium     |                                                   |        |      |      |      |
-| [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | Medium     |                                                   |        |      |      |      |
-| [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | Medium     |                                                   |        |      |      |      |
-| [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard       |                                                   |        |      |      |      |
-| [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | Hard       |                                                   |        |      |      |      |
-| [Word Ladder](https://leetcode.com/problems/word-ladder)     | Medium     |                                                   |        |      |      |      |
-| [Word Ladder II](https://leetcode.com/problems/word-ladder-ii) | Hard       |                                                   |        |      |      |      |
-| [Additive Number](https://leetcode.com/problems/additive-number) | Medium     |                                                   |        |      |      |      |
-| [Binary Watch](https://leetcode.com/problems/binary-watch)   | Easy       |                                                   |        |      |      |      |
-| [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits) | Medium     |                                                   |        |      |      |      |
-| [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement) | Medium     |                                                   |        |      |      |      |
-| [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation) | Easy       |                                                   |        |      |      |      |
+| Title                                                        | Difficulty | C++                                                   | Python | Go   | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | ----------------------------------------------------- | ------ | ---- | ---- | ---- |
+| [Red and Black](http://poj.org/problem?id=1979)              | Medium     | [C++](./C++/poj1979-red-and-black.cpp)                |        |      |      |      |
+| [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium     | [C++](./C++/leetcode0039-combination-sum.cpp)         |        |      |      |      |
+| [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium     | [C++](./C++/leetcode0040-combination-sum-ii.cpp)      |        |      |      |      |
+| [Combination Sum III](https://leetcode.com/problems/combination-sum-iii) | Medium     | [C++](./C++/leetcode0216-combination-sum-iii.cpp)     |        |      |      |      |
+| [Permutations](https://leetcode.com/problems/permutations)   | Medium     | [C++](./C++/leetcode0046-permutations.cpp)            |        |      |      |      |
+| [Permutations II](https://leetcode.com/problems/permutations-ii) | Medium     | [C++](./C++/leetcode0047-permutations-ii.cpp)         |        |      |      |      |
+| [Subsets](https://leetcode.com/problems/subsets)             | Medium     | [C++](./C++/leetcode0078-subsets.cpp)                 |        |      |      |      |
+| [Subsets II](https://leetcode.com/problems/subsets-ii)       | Medium     | [C++](./C++/leetcode0078-subsets-ii.cpp)              |        |      |      |      |
+| [N-Queens](https://leetcode.com/problems/n-queens)           | Hard       | [C++](./C++/leetcode0051-n-queens.cpp)                |        |      |      |      |
+| [N-Queens II](https://leetcode.com/problems/n-queens-ii)     | Hard       | [C++](./C++/leetcode0052-n-queens-ii.cpp)             |        |      |      |      |
+| [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard       |                                                       |        |      |      |      |
+| [Word Search](https://leetcode.com/problems/word-search)     | Medium     |                                                       |        |      |      |      |
+| [Word Search II](https://leetcode.com/problems/word-search-ii) | Hard       |                                                       |        |      |      |      |
+| [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | Medium     |                                                       |        |      |      |      |
+| [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | Medium     | [C++](./C++/leetcode0131-palindrome-partitioning.cpp) |        |      |      |      |
+| [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard       |                                                       |        |      |      |      |
+| [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) | Hard       |                                                       |        |      |      |      |
+| [Word Ladder](https://leetcode.com/problems/word-ladder)     | Medium     |                                                       |        |      |      |      |
+| [Word Ladder II](https://leetcode.com/problems/word-ladder-ii) | Hard       |                                                       |        |      |      |      |
+| [Additive Number](https://leetcode.com/problems/additive-number) | Medium     |                                                       |        |      |      |      |
+| [Binary Watch](https://leetcode.com/problems/binary-watch)   | Easy       |                                                       |        |      |      |      |
+| [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits) | Medium     |                                                       |        |      |      |      |
+| [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement) | Medium     |                                                       |        |      |      |      |
+| [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation) | Easy       |                                                       |        |      |      |      |
 
 
 
