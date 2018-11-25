@@ -71,22 +71,22 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 
 ### String
 
-| Title | Difficulty | C++  | Python | Go   | Tag  | Note |
-| ----- | ---------- | ---- | ------ | ---- | ---- | ---- |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
-|       |            |      |        |      |      |      |
+| Title                                                        | Difficulty | C++  | Python | Go   | Tag  | Note    |
+| ------------------------------------------------------------ | ---------- | ---- | ------ | ---- | ---- | ------- |
+| [Simplify Path](https://leetcode.com/problems/simplify-path) | Medium     |      |        |      |      | `split` |
+|                                                              |            |      |        |      |      |         |
+|                                                              |            |      |        |      |      |         |
+|                                                              |            |      |        |      |      |         |
+|                                                              |            |      |        |      |      |         |
+|                                                              |            |      |        |      |      |         |
+|                                                              |            |      |        |      |      |         |
+|                                                              |            |      |        |      |      |         |
+|                                                              |            |      |        |      |      |         |
+|                                                              |            |      |        |      |      |         |
+|                                                              |            |      |        |      |      |         |
+|                                                              |            |      |        |      |      |         |
+|                                                              |            |      |        |      |      |         |
+|                                                              |            |      |        |      |      |         |
 
 
 
@@ -122,39 +122,41 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 
 
 ### Stack
-| Title                                                        | Difficulty | C++                                        | Python | Go   | Tag  | Note |
-| ------------------------------------------------------------ | ---------- | ------------------------------------------ | ------ | ---- | ---- | ---- |
-| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy       | [C++](./C++/valid-parentheses.cpp)         |        |      |      |      |
-| [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | Medium     | [C++](./C++/longest-valid-parentheses.cpp) |        |      |      |      |
-| [Min Stack](https://leetcode.com/problems/min-stack)         |            |                                            |        |      |      |      |
-| [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator) |            |                                            |        |      |      |      |
-| [Mini Parser](https://leetcode.com/problems/mini-parser)     |            |                                            |        |      |      |      |
-| [Basic Calculator](https://leetcode.com/problems/basic-calculator) |            |                                            |        |      |      |      |
-| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) |            |                                            |        |      |      |      |
-| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) |            |                                            |        |      |      |      |
-| [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) |            |                                            |        |      |      |      |
-| [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree) |            |                                            |        |      |      |      |
-| [Simplify Path](https://leetcode.com/problems/simplify-path) |            |                                            |        |      |      |      |
-| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) |            |                                            |        |      |      |      |
-| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) |            |                                            |        |      |      |      |
-| [Decode String](https://leetcode.com/problems/decode-string) |            |                                            |        |      |      |      |
-| [Remove K Digits](https://leetcode.com/problems/remove-k-digits) |            |                                            |        |      |      |      |
-| [132 Pattern](https://leetcode.com/problems/132-pattern)     |            |                                            |        |      |      |      |
-| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) |            |                                            |        |      |      |      |
-| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) |            |                                            |        |      |      |      |
-| [Tag Validator](https://leetcode.com/problems/tag-validator) |            |                                            |        |      |      |      |
-| [Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions) |            |                                            |        |      |      |      |
-| [Baseball Game](https://leetcode.com/problems/baseball-game) |            |                                            |        |      |      |      |
-| [Number of Atoms](https://leetcode.com/problems/number-of-atoms) |            |                                            |        |      |      |      |
-| [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) |            |                                            |        |      |      |      |
-| [Basic Calculator IV](https://leetcode.com/problems/basic-calculator-iv) |            |                                            |        |      |      |      |
-| [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) |            |                                            |        |      |      |      |
-| [Car Fleet](https://leetcode.com/problems/car-fleet)         |            |                                            |        |      |      |      |
-| [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses) |            |                                            |        |      |      |      |
-| [Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index) |            |                                            |        |      |      |      |
-| [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack) |            |                                            |        |      |      |      |
-| [Online Stock Span](https://leetcode.com/problems/online-stock-span) |            |                                            |        |      |      |      |
-| [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums) |            |                                            |        |      |      |      |
+| Title                                                        | Difficulty | C++                                                | Python | Go   | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | -------------------------------------------------- | ------ | ---- | ---- | ---- |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy       | [C++](./C++/valid-parentheses.cpp)                 |        |      |      |      |
+| [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | Medium     | [C++](./C++/longest-valid-parentheses.cpp)         |        |      |      |      |
+| [Min Stack](https://leetcode.com/problems/min-stack)         |            |                                                    |        |      |      |      |
+| [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator) |            |                                                    |        |      |      |      |
+| [Mini Parser](https://leetcode.com/problems/mini-parser)     |            |                                                    |        |      |      |      |
+| [Basic Calculator](https://leetcode.com/problems/basic-calculator) | Hard       | [C++](./C++/leetcode0224-basic-calculator.cpp)     |        |      |      |      |
+| [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii) | Medium     | [C++](./C++/leetcode0227-basic-calculator-ii.cpp)  |        |      |      |      |
+| [Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii) | Hard       | [C++](./C++/leetcode0772-basic-calculator-iii.cpp) |        |      |      |      |
+| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | Medium     |                                                    |        |      |      |      |
+| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) |            |                                                    |        |      |      |      |
+| [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) |            |                                                    |        |      |      |      |
+| [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree) |            |                                                    |        |      |      |      |
+|                                                              |            |                                                    |        |      |      |      |
+| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) |            |                                                    |        |      |      |      |
+| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) |            |                                                    |        |      |      |      |
+| [Decode String](https://leetcode.com/problems/decode-string) |            |                                                    |        |      |      |      |
+| [Remove K Digits](https://leetcode.com/problems/remove-k-digits) |            |                                                    |        |      |      |      |
+| [132 Pattern](https://leetcode.com/problems/132-pattern)     |            |                                                    |        |      |      |      |
+| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) |            |                                                    |        |      |      |      |
+| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) |            |                                                    |        |      |      |      |
+| [Tag Validator](https://leetcode.com/problems/tag-validator) |            |                                                    |        |      |      |      |
+| [Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions) |            |                                                    |        |      |      |      |
+| [Baseball Game](https://leetcode.com/problems/baseball-game) |            |                                                    |        |      |      |      |
+| [Number of Atoms](https://leetcode.com/problems/number-of-atoms) |            |                                                    |        |      |      |      |
+| [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) |            |                                                    |        |      |      |      |
+| [Basic Calculator IV](https://leetcode.com/problems/basic-calculator-iv) |            |                                                    |        |      |      |      |
+| [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) |            |                                                    |        |      |      |      |
+| [Car Fleet](https://leetcode.com/problems/car-fleet)         |            |                                                    |        |      |      |      |
+| [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses) |            |                                                    |        |      |      |      |
+| [Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index) |            |                                                    |        |      |      |      |
+| [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack) |            |                                                    |        |      |      |      |
+| [Online Stock Span](https://leetcode.com/problems/online-stock-span) |            |                                                    |        |      |      |      |
+| [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums) |            |                                                    |        |      |      |      |
 
 
 
