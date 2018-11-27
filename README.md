@@ -122,53 +122,52 @@ This project starts at 2017.12.26 and It will keep updating in the next year.
 
 
 ### Stack
-| Title                                                        | Difficulty | C++                                                | Python | Go   | Tag  | Note |
-| ------------------------------------------------------------ | ---------- | -------------------------------------------------- | ------ | ---- | ---- | ---- |
-| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy       | [C++](./C++/valid-parentheses.cpp)                 |        |      |      |      |
-| [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | Medium     | [C++](./C++/longest-valid-parentheses.cpp)         |        |      |      |      |
-| [Min Stack](https://leetcode.com/problems/min-stack)         |            |                                                    |        |      |      |      |
-| [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator) |            |                                                    |        |      |      |      |
-| [Mini Parser](https://leetcode.com/problems/mini-parser)     |            |                                                    |        |      |      |      |
-| [Basic Calculator](https://leetcode.com/problems/basic-calculator) | Hard       | [C++](./C++/leetcode0224-basic-calculator.cpp)     |        |      |      |      |
-| [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii) | Medium     | [C++](./C++/leetcode0227-basic-calculator-ii.cpp)  |        |      |      |      |
-| [Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii) | Hard       | [C++](./C++/leetcode0772-basic-calculator-iii.cpp) |        |      |      |      |
-| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | Medium     |                                                    |        |      |      |      |
-| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) |            |                                                    |        |      |      |      |
-| [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) |            |                                                    |        |      |      |      |
-| [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree) |            |                                                    |        |      |      |      |
-|                                                              |            |                                                    |        |      |      |      |
-| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) |            |                                                    |        |      |      |      |
-| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) |            |                                                    |        |      |      |      |
-| [Decode String](https://leetcode.com/problems/decode-string) |            |                                                    |        |      |      |      |
-| [Remove K Digits](https://leetcode.com/problems/remove-k-digits) |            |                                                    |        |      |      |      |
-| [132 Pattern](https://leetcode.com/problems/132-pattern)     |            |                                                    |        |      |      |      |
-| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) |            |                                                    |        |      |      |      |
-| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) |            |                                                    |        |      |      |      |
-| [Tag Validator](https://leetcode.com/problems/tag-validator) |            |                                                    |        |      |      |      |
-| [Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions) |            |                                                    |        |      |      |      |
-| [Baseball Game](https://leetcode.com/problems/baseball-game) |            |                                                    |        |      |      |      |
-| [Number of Atoms](https://leetcode.com/problems/number-of-atoms) |            |                                                    |        |      |      |      |
-| [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) |            |                                                    |        |      |      |      |
-| [Basic Calculator IV](https://leetcode.com/problems/basic-calculator-iv) |            |                                                    |        |      |      |      |
-| [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) |            |                                                    |        |      |      |      |
-| [Car Fleet](https://leetcode.com/problems/car-fleet)         |            |                                                    |        |      |      |      |
-| [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses) |            |                                                    |        |      |      |      |
-| [Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index) |            |                                                    |        |      |      |      |
-| [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack) |            |                                                    |        |      |      |      |
-| [Online Stock Span](https://leetcode.com/problems/online-stock-span) |            |                                                    |        |      |      |      |
-| [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums) |            |                                                    |        |      |      |      |
+| Title                                                        | Difficulty | C++                                                          | Python | Go   | Tag  | Note |
+| ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ | ------ | ---- | ---- | ---- |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy       | [C++](./C++/valid-parentheses.cpp)                           |        |      |      |      |
+| [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | Medium     | [C++](./C++/longest-valid-parentheses.cpp)                   |        |      |      |      |
+| [Min Stack](https://leetcode.com/problems/min-stack)         |            |                                                              |        |      |      |      |
+| [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator) |            |                                                              |        |      |      |      |
+| [Mini Parser](https://leetcode.com/problems/mini-parser)     |            |                                                              |        |      |      |      |
+| [Basic Calculator](https://leetcode.com/problems/basic-calculator) | Hard       | [C++](./C++/leetcode0224-basic-calculator.cpp)               |        |      |      |      |
+| [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii) | Medium     | [C++](./C++/leetcode0227-basic-calculator-ii.cpp)            |        |      |      |      |
+| [Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii) | Hard       | [C++](./C++/leetcode0772-basic-calculator-iii.cpp)           |        |      |      |      |
+| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | Medium     |                                                              |        |      |      |      |
+| [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) |            |                                                              |        |      |      |      |
+| [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree) |            |                                                              |        |      |      |      |
+| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium     | [C++](./C++/leetcode0011-container-with-most-water.cpp)      |        |      |      |      |
+| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | Hard       | [C++](./C++/leetcode0042-trapping-rain-water.cpp)            |        |      |      |      |
+| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | Hard       | [C++](./C++/leetcode0084-largest-rectangle-in-histogram.cpp) |        |      |      |      |
+| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | Hard       | [C++](./C++/leetcode0085-maximal-rectangle.cpp)              |        |      |      |      |
+| [Decode String](https://leetcode.com/problems/decode-string) |            |                                                              |        |      |      |      |
+| [Remove K Digits](https://leetcode.com/problems/remove-k-digits) |            |                                                              |        |      |      |      |
+| [132 Pattern](https://leetcode.com/problems/132-pattern)     |            |                                                              |        |      |      |      |
+| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) |            |                                                              |        |      |      |      |
+| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) |            |                                                              |        |      |      |      |
+| [Tag Validator](https://leetcode.com/problems/tag-validator) |            |                                                              |        |      |      |      |
+| [Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions) |            |                                                              |        |      |      |      |
+| [Baseball Game](https://leetcode.com/problems/baseball-game) |            |                                                              |        |      |      |      |
+| [Number of Atoms](https://leetcode.com/problems/number-of-atoms) |            |                                                              |        |      |      |      |
+| [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) |            |                                                              |        |      |      |      |
+| [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) |            |                                                              |        |      |      |      |
+| [Car Fleet](https://leetcode.com/problems/car-fleet)         |            |                                                              |        |      |      |      |
+| [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses) |            |                                                              |        |      |      |      |
+| [Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index) |            |                                                              |        |      |      |      |
+| [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack) |            |                                                              |        |      |      |      |
+| [Online Stock Span](https://leetcode.com/problems/online-stock-span) |            |                                                              |        |      |      |      |
+| [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums) |            |                                                              |        |      |      |      |
 
 
 
 ### Queue
 | Title                                                        | Difficulty | C++  | Python | Go   | Tag  | Note |
 | ------------------------------------------------------------ | ---------- | ---- | ------ | ---- | ---- | ---- |
-| [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls) |            |      |        |      |      |      |
-| [Design Circular Queue](https://leetcode.com/problems/design-circular-queue) |            |      |        |      |      |      |
-| [Design Circular Deque](https://leetcode.com/problems/design-circular-deque) |            |      |        |      |      |      |
-| [Task Scheduler](https://leetcode.com/problems/task-scheduler) |            |      |        |      |      |      |
-| [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k) |            |      |        |      |      |      |
-| [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k) |            |      |        |      |      |      |
+| [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls) | Easy       |      |        |      |      |      |
+| [Design Circular Queue](https://leetcode.com/problems/design-circular-queue) | Medium     |      |        |      |      |      |
+| [Design Circular Deque](https://leetcode.com/problems/design-circular-deque) | Medium     |      |        |      |      |      |
+| [Task Scheduler](https://leetcode.com/problems/task-scheduler) | Medium     |      |        |      |      |      |
+| [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k) | Hard       |      |        |      |      |      |
+| [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k) | Hard       |      |        |      |      |      |
 
 
 
